@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/images/stef.png"/>
+  <title>Stef Portfolio</title>
+
+  <!--- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--- google font link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+  
+  <!--- #HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#home">Stef<span>.</span></a>
+      </h1>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#about" class="navbar-link">About Me.</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="#career" class="navbar-link">Experience.</a>
+          </li>
+    
+          <li>
+            <a href="#education" class="navbar-link">Education.</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link">Projects.</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact.</a>
+          </li>
+          
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <div id="particles-js" style="position: absolute; width: 100%; height: 100%;"></div>
+
+  <main>
+    <article class="container">
+      
+      <!--- #HERO -->
+      <section class="hero" id="home" >
+
+        <figure class="hero-banner">
+
+        </figure>
+
+        <div class="hero-content">
+          <h1 class="h2 hero-title">Stefany Caliao</h1>
+          <h6 class="h3 hero-title">
+            <span class="typing" style="color: #12d640"></span>
+          </h6>
+
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+        </div>
+
+
+        <ul class="hero-social-list">
+
+          <li>
+            <a href="mailto:sc.stefc@gmail.com" class="hero-social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+              <div class="tooltip">Email</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/itstefc" target="_blank" class="hero-social-link">
+              <ion-icon name="logo-github"></ion-icon>
+              <div class="tooltip">Github</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/sc-stef/" target="_blank" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#about" class="scroll-down">Scroll</a>
+
+      </section>
+
+
+
+      <!--- #ABOUT-->
+      <section class="about" style="display:flex;gap:80px" id="about">  
+
+        <figure class="about-banner">
+          <img src="./assets/images/about-banner.jpg" alt="Stef"
+            class="w-100">
+        </figure>
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+
+          <h2 class="h3 section-title">Turning Ideas into Reality? I'm in.</h2>
+
+          <p class="section-text">
+            I'm Stef, a Web Developer based in Manila with over 2+ years of experience in web development. 
+            I've worked and collaborated with a variety of startups and communities, helping them build intuitive and scalable applications that have grown their businesses and reach. 
+            By day, I'm a student. But by night, I'm a tech explorer and mentor. 
+            I'm passionate about using my skills to make a positive impact on the world. 
+            I'm excited to share my experiences and skills with you, and I hope to learn from you as well. <strong  style="color: #12d640">I believe that by working together, we can create something truly amazing. </strong>
+          
+            <ul class="section-text">
+                <li style="list-style: disc;">I am a perceptive communicator with the capacity to engage, compel and liaise with colleagues and business partners.</li>
+                <li style="list-style: disc;">While I enjoy working independently, I thrive when working in team. I’m excited about working effectively with others to achieve common goals.</li>
+                <li style="list-style: disc;">Being adaptable and flexible has enabled me to challenge conventional ways of working and learn new and more efficient coding and diverse work styles.</li>
+            </ul>
+         
+         </p>
+
+         <div class="btn-group">
+          <a class="btn btn-primary" href="./assets/pdf/resume.pdf" download>
+            <div style="display: flex; justify-content: center; align-items: center;">
+            <div style="position: relative;top:1px;">
+              <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="download" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"></path></svg>
+            </div>
+            Resume
+            </div> 
+          </a>
+        </div>
+
+      </div>
+      </section>
+
+
+      <!--- #SKILLS -->
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+
+          <h2 class="h3 section-title">Solution and Tech Stack</h2>
+
+          <p class="section-text">
+            I specialize in designing and developing user-friendly interfaces and full-stack projects to help users save time and get things done with less effort.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+            <button class="toggle-btn"  data-toggle-btn>Tools</button>  
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Angular</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/angular.png" alt="Angular logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+                <div class="skill-card">
+                  <div class="tooltip">Typescript</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/typescript.png" alt="Typescript logo">
+                  </div>
+                </div>
+              </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Ajax</div>
+
+                <div class="card-icon">
+                 
+                    <img src="./assets/images/ajax.png" alt="Ajax logo">
+                
+                </div>
+              </div>
+            </li>
+           
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Node.js</div>
+
+                <div class="card-icon">
+                  <img style="width:55px;" src="./assets/images/node.png" alt="logo">
+                </div>
+              </div>
+            </li>
+          
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">jQuery</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/jquery.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Matareal UI</div>
+
+                <div class="card-icon">
+                  <img style="width:55px;" src="./assets/images/mui.png" alt="Material UI logo">
+                </div>
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Firebase</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/firebase.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Mysql</div>
+
+                <div class="card-icon">
+                  <img style="width:81px;" src="./assets/images/sql.png" alt="logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">mongoDB</div>
+
+                <div class="card-icon">
+                  <img  style="width:71px;" src="./assets/images/mongo.png" alt="mongoDB logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SASS</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sass.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Gulp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/gulp.png" alt="Gulp logo">
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Java</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/java.png" alt="Java logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">C#</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/chash.png" alt="C# logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Data Structures And Algorithms</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/ds.png" alt="DSA logo">
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+
+          <ul class="tools-list">
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+
+                <div class="card-icon">
+                  <img style="width:55px;border-radius:10px;" src="./assets/images/trello.png" alt="Trello logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Webpack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/webpack.png" alt="Webpack logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VSCode logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">GitLab</div>
+
+                <div class="card-icon">
+                  <img style="width:40px;" src="./assets/images/gitlab.png" alt="Gitlab logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Figma</div>
+
+                <div class="card-icon">
+                  <img style="width:59px;" src="./assets/images/figma.png" alt="Figma logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Sublime Text</div>
+
+                <div class="card-icon">
+                  <img style="width:60px;border-radius:10px;" src="./assets/images/sb.png" alt="Sublime logo">
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">NetBeans</div>
+
+                <div class="card-icon">
+                  <img style="width:51px;height:49px;border-radius:10px;" src="./assets/images/netbeans.png" alt="Netbeans logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Eclipse</div>
+
+                <div class="card-icon">
+                  <img style="width:51px;height:49px;border-radius:10px;" src="./assets/images/eclipse.png" alt="Eclipse logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+                <div class="skill-card">
+                  <div class="tooltip">SAP</div>
+  
+                  <div class="card-icon">
+                    <img style="width:60px;height:60px;border-radius:10px;" src="./assets/images/sap.png" alt="SAP logo">
+                  </div>
+                </div>
+              </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Photoshop</div>
+
+                <div class="card-icon">
+                  <img style="width:60px;" src="./assets/images/photoshop.png" alt="Photoshop logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+                <div class="skill-card">
+                  <div class="tooltip">Adobe XD</div>
+  
+                  <div class="card-icon">
+                    <img style="width:60px;" src="./assets/images/adobe-xd.png" alt="Adobe XD logo">
+                  </div>
+                </div>
+              </li>
+
+            
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <!--- #CAREER -->
+      <section class="about" style="display:flex;" id="career">  
+        <div class="about-content section-content">
+            <p class="section-subtitle">Career</p>
+            <h2 class="h3 section-title aboutme">My Career</h2> 
+           
+            <p class="section-text">
+                I'm a tech enthusiast and passionate about developing applications or systems with intuitive functionalities. With over 2 years of experience in JAVA, PHP, Angular, Python and SQL, I thrive on transforming ideas into reality using creative solutions. Feel free to visit and explore the courses I've taken and IT certifications on my LinkedIn profile, <a style="color: hsl(134, 84%, 45%);; display: inline-block; vertical-align: middle;" href="https://www.linkedin.com/in/sc-stef/" target="_blank">Stefany Caliao.</a>
+            </p>
+          <div>
+       
+            <section id="resume" class="resume">
+              <div class="container" data-aos="fade-up">
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <div class="resume-section">
+                              <h3 class="resume-title">Professional Experience</h3>
+                              <div class="resume-item">
+                                  <h4>SAP ABAP Intern</h4>
+                                  <h5>(February 2024 - Present)</h5>
+                                  <p>
+                                      <span style="color: white; position: relative; top: -9px;"> SAP ABAP Intern at Accenture Philippines</span>
+                                      <ul>
+                                          <li>Building stable and maintainable codebase in SAP. </li>
+                                          <li>Experience working in ABAP development project</li>
+                                          <li>Perform configuration, modification, and integration tasks in the support of SAP enhancements and implementations</li>
+                                          <li>Developed component library for easily sharing of generic components across the program. </li>
+                                      </ul>
+                                  </p>
+                              </div>
+                              <div class="resume-item">
+                                  <h4>Web Developer</h4>
+                                  <h5>( November 2021 - November 2022 )</h5>
+                                  <p>
+                                      <span style="color: white; position: relative; top: -9px;">Former web developer at Bitlab Solutions</span>
+                                      <ul>
+                                          <li>Worked closely with clients to understand their requirements and provide technical guidance.</li>
+                                          <li>Designed, developed, and maintained scalable modules of projects using PHP frameworks and JavaScript.</li>
+                                          <li>Integrated third-party tools and APIs to enhance app functionality.</li>
+                                          <li>Led bi-weekly standup meetings to celebrate team progress and assign new tasks.</li>
+                                      </ul>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+
+                      <div class="col-lg-6" >
+                          <div class="resume-section" id="education">
+                              <h3 class="resume-title">Education</h3>
+                              <div class="resume-item">
+                                  <h4>Bachelor Of Science in Information Technology</h4>
+                                  <h5>( 2021 - Present )</h5>
+                                  <p>
+                                      <span style="color: white; position: relative; top: -9px;">University of the Cordilleras - Baguio City</span>
+                                      <ul>
+                                          <li>IT Major in Enterprise Resource Planning</li>
+                                      </ul>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </section>
+           </section> 
+
+
+<!--- #PROJECTS -->
+    <section class="project" id="project">
+     
+      <div class="project-content section-content">
+        <p class="section-subtitle">My Works</p>
+       
+        <h2 class="h3 section-title">My Recent System Projects</h2>
+        <p class="section-text">
+          Here are some projects I've developed. You can find their source codes on my GitHub repo for more info or a link will be provided in the description.
+        </p>
+      </div>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="webapp">Web-App</button>
+        <button class="filter-btn" data-filter="project">Project</button>
+      </div>
+
+      <div class="portfolio-container">
+          <div class="portfolio-item webapp visible">
+            <a href="https://alertrash.com" target="_blank" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/alertrashweb.png" alt="Alertrash">
+              </figure>
+              
+              <div class="card-content">
+                <h3 class="card-title">Alertrash </h3>
+                <p class="card-description">Alertrash is a web-based reporting system for waste disposal violations. This project is developed to address waste disposal issues.</p>
+                <br>
+                <p class="card-description">Link: alertrash.com</p>
+                <br>
+                <p class="tech-use">PHP, Bootstrap, jQuery, Mysql</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="portfolio-item project visible">
+            <a href="https://www.cartrextrucking.com/" target="_blank" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/cartrex.png" alt="Alertrash">
+              </figure>
+              <div class="card-content">
+                <h3 class="card-title">Cartrex </h3>
+                <p class="card-description">It is one-stop solution for residential or office relocations, and specialized hauling needs and a delivery tracking system.</p>
+                <br>
+                <p class="card-description">Link: cartrextrucking.com</p>
+                <br>
+                <!-- <p class="publish-date">August 2022</p> -->
+                <p class="tech-use">PHP, JS, jQuery, SQL</p>
+
+              </div>
+            </a>
+          </div>
+
+        
+            <div class="portfolio-item webapp visible">
+              <a href="https://www.jalcare.com/" target="_blank" class="project-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/clinic.png" alt="Alertrash">
+                </figure>
+                <div class="card-content">
+                  <h3 class="card-title">Jalcare Clinic </h3>
+                  <p class="card-description">A system that simplifies patient care with features for scheduling appointments, managing records and prescriptions.</p>
+                  <br>
+                  <p class="card-description">Link: jalcare.com</p>
+                  <br>
+                  <p class="tech-use">PHP, JS, JSON, Mysql</p>
+                </div>
+              </a>
+            </div>
+
+      </div>
+    </section>
+
+
+
+      <!-- #CONTACT   -->
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">DMs are open, drop a message</h2>
+
+          <p class="section-text">
+            Fill out the form and I’ll be in touch as soon as possible.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                    Quezon City, NCR - Philippines
+                </address>
+
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Mobile:</h3>
+
+                <a href="tel:9123456789" class="contact-info">(+63) 9123456789</a>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="mailto:sc.stefc@gmail.com" class="contact-info">sc.stefc@gmail.com</a>
+              </div>
+
+            </li>
+            <br>
+            <li>
+              <ul class="contac-social-list">
+
+                <li>
+                  <a href="https://www.linkedin.com/in/sc-stef/" target="_blank" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/itstefc" target="_blank" class="contact-social-link">
+                    <div class="tooltip">Github</div>
+
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+
+                
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form action="" class="contact-form">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+            <div class="input-wrapper">
+              <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+              <ion-icon name="person-circle"></ion-icon>
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+            <label for="email" class="form-label">Email</label>
+            <div class="input-wrapper">
+              <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
+                class="input-field">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+              <ion-icon name="chatbubbles"></ion-icon>
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+  <!--- #FOOTER-->
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright" id="year"></p>
+    </div>
+  </footer>
+
+
+  <!--- #GO TO TOP -->
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+  <!--- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="./assets/js/typed.min.js"></script>
+  <script src="./assets/js/typed.js"></script>
+
+
+<!-- dots -->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script src="./assets/js/particles.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+<!-- optional -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+
+<script>
+    // typing 
+    var typed = new Typed(".typing", {
+        strings: ["Web Developer", "SAP Project Manager", "Cloud Enthusiast"],
+        loop: true,
+        typeSpeed: 60,
+        backSpeed: 60,
+    });
+
+</script>
+
+<script>
+  // footer
+    document.addEventListener('DOMContentLoaded', function() {
+    var currentYear = new Date().getFullYear();
+    var yearElement = document.getElementById('year');
+    yearElement.textContent = '\u00A9 ' + currentYear + ' Stef-Dev';
+    });
+</script>
+
+
+<script>
+    // Filter Project
+    function filterItems(filter) {
+        const items = document.querySelectorAll('.portfolio-item');
+        items.forEach(item => {
+            if (filter === 'all' || item.classList.contains(filter)) {
+                item.classList.add('visible');
+                item.style.display = 'block';
+            } else {
+                item.classList.remove('visible');
+                item.style.display = 'none';
+            }
+        });
+    }
+
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const currentFilter = btn.getAttribute('data-filter');
+            filterButtons.forEach(button => button.classList.remove('active'));
+            btn.classList.add('active');
+            filterItems(currentFilter);
+        });
+    });
+
+</script>
+
+ 
+</body>
+</html>
